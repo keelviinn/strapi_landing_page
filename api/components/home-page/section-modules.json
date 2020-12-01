@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.modules",
+      "required": true
+    }
+  }
+}
