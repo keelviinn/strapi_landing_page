@@ -46,6 +46,17 @@
       "repeatable": false,
       "component": "home-page.section-modules",
       "required": true
+    },
+    "sectionAgenda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.section-agenda",
+      "required": true
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.pricing-box"
     }
   }
 }
